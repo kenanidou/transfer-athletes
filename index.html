@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Εισήγηση μεταγραφής αθλητών-φοιτητών</title>
+<link rel="stylesheet" href="styles.css" />
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="js/change-language-functions.js"></script>
+<script src="js/jquery-functions.js"></script>
+</head>
+<body>
+<header class="govgr-header">
+  <div class="govgr-header__container">
+    <div class="govgr-header__content">
+      <div class="header-row">
+        <a href="#" id="logo-link" aria-label="Link to homepage"><img src="assets/Logo.png" alt="Logo" width="200"></a>
+        <div class="govgr-header-title serviceTitle">Εισήγηση μεταγραφής αθλητών-φοιτητών</div>
+      </div>
+      <button id="languageBtn" type="button"><span class="language-component" data-component="languageBtn">EL</span></button>
+    </div>
+  </div>
+</header>
+
+<main class="govgr-width-container" id="content">
+  <h1 class="govgr-heading-xl language-component" data-component="infoTitle">Εισήγηση μεταγραφής αθλητών-φοιτητών</h1>
+
+  <div id="intro">
+    <p class="language-component" data-component="subTitle1"><strong>Αυτό το ερωτηματολόγιο μπορεί να σας βοηθήσει να βρείτε αν δικαιούστε εισήγηση μεταγραφής ως αθλητής-φοιτητής.</strong></p>
+    <p class="language-component" data-component="subTitle2">H συμπλήρωση του ερωτηματολογίου δεν απαιτεί παραπάνω από 10 λεπτά.</p>
+    <p class="language-component" data-component="subTitle3"><em>Δεν θα αποθηκεύσουμε ούτε θα μοιραστούμε τις απαντήσεις σας.</em></p>
+    <button id="startBtn" class="govgr-btn govgr-btn-primary govgr-btn-cta language-component" data-component="startBtn">Ας ξεκινήσουμε</button>
+  </div>
+
+  <a href="#" class="govgr-back-link" id="backButton" style="display:none">Πίσω</a>
+
+  <div id="questions-btns">
+    <div class="question-container"></div>
+    <button id="nextQuestion" class="govgr-btn govgr-btn-primary" style="display:none">Επόμενη ερώτηση</button>
+  </div>
+
+  <div id="faqContainer" class="faqContainer" style="display:none"></div>
+</main>
+
+<footer class="govgr-footer">
+  <div class="govgr-width-container">
+    <p class="language-component" data-component="footerText">Demo project</p>
+  </div>
+</footer>
+</body>
+</html>

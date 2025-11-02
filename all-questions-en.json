@@ -1,0 +1,92 @@
+{
+  "questions": {
+    "q1": {
+      "id": "q1",
+      "question": "Application received with attachments?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "q2": {
+      "id": "q2",
+      "question": "Has the application check been completed?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "q3": {
+      "id": "q3",
+      "question": "Is a document to the Ministry required?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "q4": {
+      "id": "q4",
+      "question": "Was a draft positive response prepared?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "q5": {
+      "id": "q5",
+      "question": "Was a draft negative response prepared?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "q6": {
+      "id": "q6",
+      "question": "Did the Director countersign the positive draft?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "q7": {
+      "id": "q7",
+      "question": "Did the Director countersign the negative draft?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "q8": {
+      "id": "q8",
+      "question": "Did the General Director sign the positive draft?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "q9": {
+      "id": "q9",
+      "question": "Did the General Director sign the negative draft?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "q10": {
+      "id": "q10",
+      "question": "Protocol positive draft for completion?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    "q11": {
+      "id": "q11",
+      "question": "Protocol negative draft for completion?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    }
+  }
+}

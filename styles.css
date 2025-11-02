@@ -1,0 +1,10 @@
+
+body{font-family: Arial, Helvetica, sans-serif; margin:0; color:#0e1b2b; background:#fff;}
+.govgr-header{background:#003375;color:#fff;padding:12px;}
+.govgr-width-container{max-width:980px;margin:20px auto;padding:0 16px;}
+.govgr-btn{padding:10px 14px;border-radius:6px;border:0;cursor:pointer;}
+.govgr-btn-primary{background:#0b63d4;color:#fff;}
+.question-card{background:#fbfdff;border:1px solid #e6eef6;padding:16px;border-radius:8px;margin-top:12px;}
+.answer-btn{margin:6px 6px 0 0;padding:8px 12px;border-radius:6px;border:1px solid #cbd7e6;background:#fff;cursor:pointer;}
+.outcome{background:#f1f8f6;border:1px solid #dff0e8;padding:14px;border-radius:8px;margin-top:12px;}
+.faq-item{border:1px solid #e6eef6;padding:12px;border-radius:8px;margin-bottom:8px;background:#fff;}
